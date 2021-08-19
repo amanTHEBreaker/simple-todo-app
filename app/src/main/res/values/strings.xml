@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simple To do</string>
+    <string name="Enterhint">Enter the Items</string>
+    <string name="add">Add</string>
+    <string name="enter_the_items">Enter the items</string>
+    <string name="Enter">Add</string>
+    <string name="update_the_item">Update the item</string>
+    <string name="button2">Enter</string>
+</resources>
