@@ -12,21 +12,23 @@ The following **required** functionality is completed:
 
 * [x] User can **view a list of todo items**
 * [x] User can **successfully add and remove items** from the todo list
-* [ ] User's **list of items persisted** upon modification and and retrieved properly on app restart
+* [x] User's **list of items persisted** upon modification and and retrieved properly on app restart
 
-The following **optional** features are implemented:
+The following **optional** features are soon to be implemented:
 
 * [ ] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
 
 The following **additional** features are implemented:
 
-* [ ] Add Adapter
+* [ ] Add support for modification of existing items.
+* [ ] Add support for completion due dates for todo items (and display within listview item)
+* [ ] Add support for selecting the priority of each todo item (and display in listview item)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/amanTHEBreaker/simple-todo-app-codepath/blob/master/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
