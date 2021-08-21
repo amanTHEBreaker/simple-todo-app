@@ -34,15 +34,20 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
         this.ClickListener = onClickListener;
     }
 
+
+    // Usually involves inflating a layout from XML and returning the holder
     @NonNull
     @org.jetbrains.annotations.NotNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull @org.jetbrains.annotations.NotNull ViewGroup parent, int viewType) {
+
         // use layout to inflate a view
         View todoView = LayoutInflater.from(parent.getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
+
         // wrap it in view holder and return it
         return new ViewHolder(todoView);
     }
+
     // responsible for binding data to particular view holder
     @Override
     public void onBindViewHolder(@NonNull @org.jetbrains.annotations.NotNull ItemsAdapter.ViewHolder holder, int position) {
@@ -57,14 +62,18 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
     public int getItemCount() {
         return items.size();
     }
-    // Container to provide easy access to views that represent each row of list
 
+
+    // Container to provide easy access to views that represent each row of list
     class ViewHolder extends RecyclerView.ViewHolder {  // public static abstract class RecyclerView.ViewHolder
 
         TextView tvView;
 
 
         public ViewHolder(@NonNull View itemView) {
+
+            // Stores the itemView in a public final member variable that can be used
+            // to access the context from any ViewHolder instance.
             super(itemView);
             tvView = itemView.findViewById(android.R.id.text1);
 

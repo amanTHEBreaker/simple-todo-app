@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClicked(int position) {
                 Log.d("MainActivity","Single Click poistion :  " + position);
                 // Create new activity
-                Intent intent = new Intent(MainActivity.this, EditText.class);
+                Intent intent = new Intent(MainActivity.this, EditActivity.class);
                 // pass the data being edited
                 intent.putExtra(KEY_ITEM_TEXT, items.get(position));
                 intent.putExtra(KEY_ITEM_POSITION, position);
@@ -85,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
                 //
                 Toast.makeText(getApplicationContext(), "Item is added", Toast.LENGTH_SHORT).show();
                 saveItems();
-
             }
         });
     }

@@ -18,8 +18,8 @@ public class EditActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
 
-        etItem = (EditText) findViewById(R.id.etIItem);
-        btnEdit = (Button) findViewById(R.id.btnEdit);
+        etItem = (EditText) findViewById(R.id.editTextEditor);
+        btnEdit = (Button) findViewById(R.id.editButton);
 
         getSupportActionBar().setTitle("Edit item");
 
