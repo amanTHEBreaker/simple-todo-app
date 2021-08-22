@@ -32,8 +32,7 @@ Here's a walkthrough of implemented user stories:
 
 
 ## Notes
-
-Could'nt implement the edit functionality.
+- Item is not getting  modified.
 
 ## License
 
